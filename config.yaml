@@ -1,0 +1,24 @@
+realtime: true
+simulator_plugins:
+  - name: rvo2-plugin
+    value: ./plugin/rvo2.go
+  - name: sumo-plugin
+    value: ./plugin/sumo.go
+data_plugins:
+  - name: wifi-plugin
+    value: ./plugin/wifi.go
+vis_plugins:
+  - name: harmowarevis_plugin
+    value: ./plugin/harmowarevis.go
+scenario:
+  areas:
+    - latitude: 35.155838
+      longitude: 136.988355
+    - latitude: 35.155838
+      longitude: 136.988355
+    - latitude: 35.155838
+      longitude: 136.988355
+    - latitude: 35.155838
+      longitude: 136.988355
+    
+  name: agent-dist1
